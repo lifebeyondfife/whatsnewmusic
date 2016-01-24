@@ -57,6 +57,6 @@ var TilesComponent = React.createClass({
 });
 
 ReactDOM.render(
-  <TilesComponent url='/api/albums' />,
-  document.getElementById('main')
+	<TilesComponent url='/api/albums' />,
+	document.getElementById('main')
 );
